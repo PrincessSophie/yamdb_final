@@ -2,6 +2,9 @@
 ![example workflow](https://github.com/PythonGun/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 
+# Проект доступен по адресу
+http://84.201.174.194/api/v1/
+
 ## О себе
 Привет! Меня зовут София, я учусь на программиста и проххожу курсы в Яндекс Практикуме.
 
