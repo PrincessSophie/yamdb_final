@@ -123,7 +123,7 @@ class UserViewSet(viewsets.ModelViewSet):
         if request.method == 'GET':
             serializer = self.get_serializer(request.user, many=False)
             return Response(serializer.data, status=status.HTTP_200_OK)
-        elif request.method == 'PATCH':
+        if request.method == 'PATCH':
             serializer = self.get_serializer(
                 instance=request.user,
                 data=request.data,
